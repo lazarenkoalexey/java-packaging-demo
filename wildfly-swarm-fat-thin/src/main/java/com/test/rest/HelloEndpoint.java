@@ -11,7 +11,7 @@ public class HelloEndpoint {
     public String hello() {
         String type = "Java EE/WildFly Thin WAR";
         if (System.getProperty("swarm.bundled.dependencies") != null) {
-            type = "WildFly Swarm Far JAR";
+            type = "WildFly Swarm Fat JAR";
         }
         return "hello from " + type + ", the date is " + LocalDate.now().toString();
     }
