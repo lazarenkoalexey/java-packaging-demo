@@ -10,7 +10,7 @@
     <name>Greeting App - Spring Boot - Fat JAR</name>
     <description>A Spring Boot REST Example</description>
     <properties>
-        <spring-boot.version>1.5.15.Final-redhat-00002</spring-boot.version>
+        <spring-boot.version>2.1.15.Final-redhat-00001</spring-boot.version>
     </properties>
     <dependencyManagement>
         <dependencies>
