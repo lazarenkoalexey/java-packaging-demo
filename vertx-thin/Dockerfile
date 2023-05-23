@@ -1,4 +1,4 @@
-FROM vertx/vertx3-exec
+FROM vertx/vertx4-exec
 
 ENV VERTICLE_NAME com.example.demo.App
 ENV VERTICLE_HOME /usr/verticles
