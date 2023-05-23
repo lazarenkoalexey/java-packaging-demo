@@ -22,7 +22,7 @@ public class App extends AbstractVerticle {
 
         router.get("/*").handler(StaticHandler.create());
 
-        vertx.createHttpServer().requestHandler(router::accept).listen(8080);
+        vertx.createHttpServer().requestHandler(router).listen(8080);
 
         System.out.println("THE HTTP APPLICATION HAS STARTED");
     }
