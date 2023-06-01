@@ -12,6 +12,9 @@
     <properties>
         <spring-boot.version>2.3.12.RELEASE</spring-boot.version>
         <wrapper.version>1.0.25.RELEASE</wrapper.version>
+        <thin.root>/var/lib/jelastic/PROJECTS/myapp/spring-boot-thin/target/thin/root/</thin.root>
+        <thin.archive>/var/lib/jelastic/PROJECTS/myapp/spring-boot-thin/target/thin/root/greeting-spring-boot-thin.jar</thin.archive>
+        <thin.trace>true</thin.trace>
     </properties>
     <dependencyManagement>
         <dependencies>
